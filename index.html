@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style/dgtal-portfolio.css">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/skills.css">
+    <link rel="stylesheet" href="style/project.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/scroll-animation.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Tricia</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button onclick="openResume()" class="resume-button">Resume</button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="container">
+            <div class="home-content">
+                <h1>Hi, I'm Tricia Gale Jardiel</h1>
+                <p class="subtitle">Aspiring Frontend Developer</p>
+                <p>I'm a passionate frontend developer creating innovative digital solutions. Let's build something amazing together!</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content animate-on-scroll">
+                <div class="about-image">
+                    <img src="images/gradPic.JPG" alt="Profile">
+                </div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>I’m Tricia Gale Jardiel, a Computer Science graduate passionate about creating responsive and user-friendly web designs. I specialize in frontend development using HTML, CSS, and JavaScript and continuously aim to grow my skills to build meaningful digital experiences.</p>
+                    <a href="#contact" class="btn">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid animate-on-scroll">
+                <div class="skill-card">
+                    <img src="icons/html-5-svgrepo-com.svg" alt="html icon">
+                    <p> HTML</p>
+                </div>
+                <div class="skill-card">
+                    <img src="icons/css-3-svgrepo-com.svg" alt="css icon">
+                    <p>CSS</p>
+                </div>
+                <div class="skill-card">
+                    <img src="icons/js-svgrepo-com.svg" alt="javascript icon">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <img src="icons/mysql-logo-svgrepo-com.svg" alt="css icon">
+                    <p>MySQL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid animate-on-scroll">
+                <!-- coffee shop -->
+                <div class="project-card">
+                    <img src="images/coffee-shop.png" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Coffee Shop Website</h3>
+                        <p>This coffee shop website is a responsive landing page built by codingnepal and customized to improve layout and styling.</p>
+                        <a href="http://127.0.0.1:5500/Coffe%20Shop/index.html" class="project-link">View Project →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=400&h=200&fit=crop" alt="Project 2">
+                    <div class="project-info">
+                        <h3>MealMile</h3>
+                        <p>A prototype application for delivery application using figma</p>
+                        <a href="https://www.figma.com/design/W2V3dF32ijc6CSYhk7KcCF/Final-Project?node-id=0-1&t=97OQeGfXrBkpXiLM-1" class="project-link">View Project →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content animate-on-scroll" method ="POST" encrypt="text/plain">
+                <form action="mailto:tricia.jrdl@gmail.com">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div class="social-links">
+                    <a href="https://github.com/TRIC1A" target="_blank">
+                        <img src="icons/github-white-icon.svg" alt="github icon">
+                        
+                    </a>
+                    <a href="https://www.linkedin.com/in/tricia-gale-jardiel-5b164a351/?trk=opento_sprofile_details">
+                        <img src="icons/linkedin-app-white-icon.svg" alt="linkedin icon">
+                    </a>
+                    <a href="mailto:tricia.jrdl@gmail.com">
+                        <img src="icons/email-envelope-white-icon.svg" alt="gmail icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Tricia Gale Jardiel. All rights reserved.</p>
+    </footer>
+
+    <script src="javascipt/main.js"></script>
+</body>
+</html>

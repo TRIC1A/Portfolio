@@ -1,0 +1,11 @@
+/* Footer */
+footer {
+  background: #0a0a0a;
+  text-align: center;
+  padding: 2rem;
+  border-top: 1px solid rgba(255, 105, 180, 0.2);
+}
+
+footer p {
+  color: #ccc;
+}

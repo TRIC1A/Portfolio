@@ -1,0 +1,80 @@
+/* Contact Section */
+.contact {
+  background: linear-gradient(135deg, #1a0a1a 0%, #2d1b2d 100%);
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ff69b4;
+  margin-bottom: 3rem;
+}
+
+.contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+  animation: fadeInUp 1s ease;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact input,
+.contact textarea {
+  padding: 15px;
+  background: rgba(255, 105, 180, 0.1);
+  border: 2px solid rgba(255, 105, 180, 0.3);
+  border-radius: 10px;
+  color: #fff;
+  font-family: inherit;
+  transition: border-color 0.3s ease;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  outline: none;
+  border-color: #ff69b4;
+}
+
+.contact button {
+  background: #ff69b4;
+  color: #fff;
+  padding: 15px;
+  border: 2px solid #ff69b4;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact button:hover {
+  background: transparent;
+  transform: translateY(-3px);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.social-links a {
+  color: #ff69b4;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  transform: translateY(-5px);
+  color: #ff1493;
+}
+
+.social-links img{
+  width: 24px;
+}
